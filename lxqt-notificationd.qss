@@ -1,0 +1,29 @@
+Notification {
+    color: #CF3610;
+    border: 1px solid rgba(207, 54, 16, 100%);
+    background: rgba(0, 30, 30, 100%);
+    margin: 0px;
+    border-radius: 5px;
+}
+
+QLabel {
+    color: #16A085;
+}
+
+#closeButton {
+    margin: 3px;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 4px;
+    qproperty-icon: url(lxqt-notificationd/window-close.svg);
+}
+
+#closeButton:hover {
+    color: rgba(207, 54, 16, 100%);
+    background: rgba(3, 61, 61, 100%);
+    border: 1px solid rgba(207, 54, 16, 100%);
+}
+
+#appLabel {
+    font-weight: bold;
+}
