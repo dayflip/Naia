@@ -1,5 +1,5 @@
 #panel {
-    background:rgba(0, 30, 30, 100%);
+    background: rgba(0, 30, 30, 100%);
     border: 1px solid rgba(207, 54, 16, 100%);
 }
 
@@ -13,7 +13,7 @@ QToolButton {
 
 QToolButton:hover {
     color: rgba(22, 160, 133, 100%);
-    background: rgba(3, 61, 61, 75%);
+    background: rgba(3, 61, 61, 100%);
     border: 1px solid rgba(22, 160, 133, 100%);
 }
 
@@ -29,15 +29,23 @@ QToolButton::menu-indicator {
     qproperty-icon: url(lxqt-runner/application-menu.svg);
 }
 
+#commandEd {
+    background: rgba(3, 71, 71, 100%);
+    border: none;
+    color: #16A085;
+    selection-background-color: rgba(3, 61, 61, 100%);;
+    selection-color: #CF3810;
+}
+
 #commandList {
-    background:rgba(3, 61, 61, 75%);
+    background: rgba(3, 61, 61, 100%);
     border: 1px solid rgba(207, 54, 16, 100%);
     margin: 0 1px 1px 1px;
 }
 
 QMenu {
     border: 1px solid rgba(207, 54, 16, 100%);
-    background:rgba(0, 30, 30, 100%);
+    background: rgba(0, 30, 30, 100%);
     margin: 0px;
 }
 
@@ -46,7 +54,11 @@ QMenu::item {
 }
 
 QMenu::item:selected {
-    background: rgba(3, 61, 61, 50%);
+    background: rgba(3, 61, 61, 100%);
+    color: #16A085;
+}
+
+QMenu::item:disabled {
     color: #16A085;
 }
 
