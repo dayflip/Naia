@@ -101,6 +101,7 @@ QMenu::right-arrow {
 }
 
 #TaskBar QToolButton:hover{
+    margin: 1px;
     border: none ;
     color: #CF3610;
 }
