@@ -482,7 +482,7 @@ QCalendarWidget QWidget {
 }
 
 QTableViewItem {
-    border: 1px solid rgba(0, 30, 30, 100%);
+    border: 1px solid rgba(207, 54, 16, 100%);
 }
 
 /*
