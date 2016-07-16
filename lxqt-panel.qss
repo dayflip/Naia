@@ -413,7 +413,7 @@ TrayIcon {
 
 QCalendarWidget #qt_calendar_navigationbar,
 #WorldClock QCalendarWidget #qt_calendar_navigationbar * {
-    background:rgba(0, 30, 30, 100%);
+    background: rgba(0, 30, 30, 100%);
     color: rgba(207, 54, 16, 100%);
 }
 
@@ -445,7 +445,7 @@ QCalendarWidget QMenu {
 
 QCalendarWidget QMenu::item:selected {
     color: #16A085;
-    background: rgba(3,61, 61, 25%);
+    background: rgba(3, 61, 61, 25%);
 }
 
 QCalendarWidget QToolButton::menu-indicator {
@@ -482,7 +482,7 @@ QCalendarWidget QWidget {
 }
 
 QTableViewItem {
-    border: 1px solid rgba(207, 54, 16, 100%);
+    border: 1px solid rgba(0, 30, 30, 100%);
 }
 
 /*
